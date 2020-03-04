@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    min-height: 100%;
+}
+
+body {
+    background: #000 url("./assets/background.jpg") no-repeat;
+    background-size: cover;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+body,
+input,
+button {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.875rem;
+}
+
+.container {
+    margin: 5rem auto 0;
+    max-width: 28.125rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    background: #fff;
+    margin-top: 3.125rem;
+    border-radius: 0.25rem;
+    padding: 1.875rem;
+}
+
+.content > p {
+    font-size: 1.375rem;
+    line-height: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+
+.content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.content form label {
+    font-size: 0.875rem;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.content form label span {
+    font-weight: normal;
+    color: #999;
+    font-size: 0.75rem;
+}
+
+.content form input {
+    margin-bottom: 1.25rem;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.125rem;
+    height: 2.8125rem;
+    padding: 0 0.9375rem;
+    margin-bottom: 1rem;
+}
+
+.content button.btn {
+    border: 0;
+    border-radius: 0.125rem;
+    width: 100%;
+    height: 2.625rem;
+    padding: 0 1.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #f05a5b;
+    color: #fff;
+    cursor: pointer;
+}
+
+.content button.btn:hover {
+    background: #e14f50;
+}
